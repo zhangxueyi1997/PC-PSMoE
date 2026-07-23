@@ -1,0 +1,32 @@
+# ---- 保密数据与衍生产物：永不入库 ----
+data/*
+results/
+paper/
+.review_artifacts/
+
+# 本地编辑器目录
+.vscode/
+.idea/
+
+# 文档与二进制
+*.docx
+*.doc
+*.xlsx
+*.csv
+*.pt
+*.joblib
+*.npy
+*.png
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 例外：代码目录下的说明性小文件
+!code/**/requirements*.txt
+
+# 例外：演示样例（每个平台 2 口井的真实子集，标识符已重编码）
+!data/demo_sample/
+!data/demo_sample/**
